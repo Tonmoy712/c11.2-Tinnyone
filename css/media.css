@@ -1,0 +1,98 @@
+/* @media(min-width: 1199px){
+    .container{
+        max-width: 1400px;
+    }
+} */
+@media(max-width: 1199px){
+    header .swiper-container .swiper-wrapper .swiper-slide img {
+        max-width: 300px;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide ul li i {
+        font-size: 40px;
+    }
+}
+@media(max-width: 991px){
+    .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .feature-section h3 {
+        font-size: 24px;
+    }
+    header .swiper-container {
+        padding: 30px 0 50px 0; 
+    }
+    .contact-section h3 {
+        font-size: 24px;
+    }
+}
+@media(max-width: 767px){
+    header .swiper-container {
+        padding: 0 0 50px 0;
+    }
+    header .swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        margin-bottom: 0;
+    }
+    header .swiper-container .swiper-wrapper .swiper-slide img {
+        margin-top: 30px;
+        }
+        .navbar-nav {
+            -ms-flex-direction: column;
+            flex-direction: column;
+            text-align: right;
+        }
+        .feature-section h2 {
+            font-size: 20px;
+        }
+        .feature-section i {
+            font-size: 40px;
+        }
+        .contact-section .form .btn-custom {
+            padding: 8px 20px;
+            background: #fcdb00;
+            color: #000;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .contact-section .form .form-control {
+            font-size: 20px;
+            padding: 23.5px 20px;
+        }
+        .contact-section li a {
+            margin-right: 25px;
+            font-size: 40px;
+        }
+        .contact-section {
+            padding: 40px 0;
+        }
+        footer {
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        footer P {
+            padding: 0;
+        }
+}
+@media(max-width: 575px){
+    header .swiper-container .swiper-wrapper .swiper-slide img {
+    max-width: 230;
+    }
+    header .swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h1{
+        font-size: 34px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .navbar-nav {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+}
